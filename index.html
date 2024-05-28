@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Skillulator</title>
+    <link rel="stylesheet" href="style.css">  
+    <script src="code.js" defer></script>
+    <script src="monster.js" defer></script>
+    <script src="stats.js" defer></script>
+    <script type='text/javascript' src='//code.jquery.com/jquery-1.10.1.js'></script>
+</head>
+
+<body onload="display()">
+<div id="loading">
+    <div class="spacer"></div>
+    <div class="spacer">Loading...</div>
+    <div class="spacer"></div>
+</div>
+<div id="website">
+<div class="spacer"></div>
+
+
+    <div id="monster">
+        <div id="name" class="name">
+            <div class="spacer"></div>
+            <div id="monstername" class="monstername"></div>
+            <div class="spacer"></div>
+        </div>
+        <div id="monstericon" class="monstericon"></div>
+        <div id="bottom">
+            <div id="smash" class="button" onclick="smash()">
+                <div class="spacer"></div>
+                <span>Smash</span>
+                <div class="spacer"></div>
+            </div>
+            <div id="pass" class="button"  onclick="pass()">
+                <div class="spacer"></div>
+                <span>Pass</span>
+                <div class="spacer"></div>
+            </div>
+        </div>
+        <br>
+    <u onclick="stats()">Click for Stats</u>
+    </div>
+
+    <u id="closestats1" onclick="closestats()">Close Stats</u>
+    <div id="stats">
+        <div id="smashed">
+
+
+        </div>
+        <div id="passed">
+ 
+        </div>
+        
+    </div>
+    <u id="closestats2" onclick="closestats()">Close Stats</u>
+
+
+
+<div class="spacer">
+    <center>No Cookies - Reload = Restart
+    <br>
+    Masquerpet Smash by <b>Nero#7295</b> | <a href="https://games.skillulator.com">Games.Skillulator.com</a>
+    </center><br>
+</div>
+
+
+
+</div>
+</body>
+</html>
