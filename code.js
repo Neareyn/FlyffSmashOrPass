@@ -1,4 +1,3 @@
-
 var mid = 0
 function display(){   
     mid = Math.floor(Math.random() * monster.length) + 1
